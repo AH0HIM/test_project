@@ -19,7 +19,7 @@ def main():
         description='test_project',
         long_description=open('README.md').read(),
         long_description_content_type="text/markdown",
-        url="https://github.com/AH0HIM/test_project",
+        url="https://github.com/AH0HIM/test_project.git",
         author='Ikonnikov Ilya',
         author_email='i666943097@gmail.com',
         packages=[

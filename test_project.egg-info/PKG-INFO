@@ -23,7 +23,7 @@ python setup.py sdist bdist_wheel --universal
 ```
 
 ### Install
-```bash
+```bashpip
 pip install [-e] .
 pip install dist/... --forse-reinstall
 pip install -r requirements.txt
