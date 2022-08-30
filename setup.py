@@ -25,8 +25,8 @@ def main():
         packages=[
             'tests',
             'tests.ui',
-            'tests.core',
-            'tests.rest',
+            # 'tests.core',
+            # 'tests.rest',
         ],
         install_requires=[
             'pytest==7.1.2',

@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: test-project
 Version: 1.0
-Summary: test_project
+Summary: Test Project
 Home-page: https://github.com/AH0HIM/test_project
 Author: Ikonnikov Ilya
 Author-email: i666943097@gmail.com
 License: UNKNOWN
-Keywords: PDF Analyzer Tool Package
+Keywords: Test Project Package
 Platform: UNKNOWN
 Description-Content-Type: text/markdown
 
