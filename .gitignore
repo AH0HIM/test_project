@@ -142,4 +142,4 @@ dmypy.json
 dist
 test_project.egg-info
 !/build/
-!/build/lib/
+!/build/lib/!/build/
