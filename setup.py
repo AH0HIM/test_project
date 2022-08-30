@@ -29,7 +29,7 @@ def main():
             'test_package.src',
             'test_package.src.pages',
             'test_package.tests',
-            'test_package.test.ui',
+            'test_package.tests.ui',
         ],
         install_requires=[
             'pytest==7.1.2',
