@@ -1,7 +1,6 @@
 # Other
 .idea
 .build
-.dist
 .logs
 
 
@@ -135,8 +134,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-!/build/
-!/dist/
-!/test_project.egg-info/
-!/.pytest_cache/
+/build/
+/dist/
+/test_project.egg-info/
+/.pytest_cache/
 !/dist/
