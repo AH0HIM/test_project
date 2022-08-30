@@ -16,10 +16,10 @@ def main():
     setup(
         name='test-project',
         version='1.0',
-        description='test_project',
+        description='Test Project',
         long_description=open('README.md').read(),
         long_description_content_type="text/markdown",
-        url="https://github.com/AH0HIM/test_project.git",
+        url="https://github.com/AH0HIM/test_project",
         author='Ikonnikov Ilya',
         author_email='i666943097@gmail.com',
         packages=[
@@ -39,7 +39,7 @@ def main():
             'pyvirtualdisplay',
         ],
         include_package_data=True,
-        keywords="PDF Analyzer Tool Package"
+        keywords="Test Project Package"
     )
 
 
