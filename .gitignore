@@ -141,3 +141,5 @@ dmypy.json
 /.pytest_cache/
 dist
 test_project.egg-info
+!/build/
+!/build/lib/
