@@ -1,8 +1,8 @@
 from time import sleep
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from src.pages.header_page import HeaderPage
-from src.pages.login_page import LoginPage
+from package.src.pages.header_page import HeaderPage
+from package.src.pages.login_page import LoginPage
 
 
 class TestLogin:
