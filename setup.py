@@ -24,8 +24,6 @@ def main():
         author_email='i666943097@gmail.com',
         packages=[
             'test_package',
-            'test_package.core',
-            'test_package.rest',
             'test_package.src',
             'test_package.src.pages',
             'test_package.tests',
