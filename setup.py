@@ -23,10 +23,13 @@ def main():
         author='Ikonnikov Ilya',
         author_email='i666943097@gmail.com',
         packages=[
-            'tests',
-            'tests.ui',
-            # 'tests.core',
-            # 'tests.rest',
+            'testproject',
+            'testproject.doc',
+            'testproject.src',
+            'testproject.tests',
+            'testproject.tests.core',
+            'testproject.tests.rest',
+            'testproject.tests.ui',
         ],
         install_requires=[
             'pytest==7.1.2',
