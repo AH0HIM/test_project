@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: test-project
+Version: 1.0
+Summary: test_project
+Home-page: https://github.com/AH0HIM/test_project
+Author: Ikonnikov Ilya
+Author-email: i666943097@gmail.com
+License: UNKNOWN
+Keywords: PDF Analyzer Tool Package
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
 # TEST PROJECT
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
@@ -11,7 +23,7 @@ python setup.py sdist bdist_wheel --universal
 ```
 
 ### Install
-```bashpip
+```bash
 pip install [-e] .
 pip install dist/... --forse-reinstall
 pip install -r requirements.txt
@@ -26,10 +38,10 @@ pip install -r requirements.txt
 
 ### Known issues
 ```bash
-- Если возникло "ImportError: cannot import name 'MarkInfo'",  то удалить pytest-selenium
-- Если нет модуля allure, то 'pip install allure-pytest'
-- Если возникло "ModuleNotFoundError: No module named 'webdriver_manager'", то 'pip install webdriver-manager' 
-- Если "TypeError: __init__() missing 3 required positional arguments: 'excinfo', 'start', and 'stop'", то обновить flaky в pip до последней версии
+- Р•СЃР»Рё РІРѕР·РЅРёРєР»Рѕ "ImportError: cannot import name 'MarkInfo'",  С‚Рѕ СѓРґР°Р»РёС‚СЊ pytest-selenium
+- Р•СЃР»Рё РЅРµС‚ РјРѕРґСѓР»СЏ allure, С‚Рѕ 'pip install allure-pytest'
+- Р•СЃР»Рё РІРѕР·РЅРёРєР»Рѕ "ModuleNotFoundError: No module named 'webdriver_manager'", С‚Рѕ 'pip install webdriver-manager' 
+- Р•СЃР»Рё "TypeError: __init__() missing 3 required positional arguments: 'excinfo', 'start', and 'stop'", С‚Рѕ РѕР±РЅРѕРІРёС‚СЊ flaky РІ pip РґРѕ РїРѕСЃР»РµРґРЅРµР№ РІРµСЂСЃРёРё
 ```
 
 ### To run tests
@@ -46,3 +58,5 @@ pip install -r requirements.txt
 
 ### Re-run failed tests
 ![Alt text](doc/re-run.png?raw=true "Re-run Failed")
+
+
